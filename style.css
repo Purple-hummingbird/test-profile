@@ -1,0 +1,112 @@
+
+body {
+
+  background: #FFE5D9;
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  /* je sais ce n'est pas un multiple de 8  */
+  font-weight: lighter;
+  /* line-height */
+}
+
+h1 {
+  color: #D13BC7;
+  font-family: 'Merienda', cursive;
+  font-size: 50px;
+  line-height: lighter;
+}
+h2 {
+  color: #AB0094;
+  font-family: 'Merienda', cursive;
+  font-size: 25px;
+  line-height: lighter;
+}
+
+a {
+  color:#185AAB ;
+  text-decoration: none ;
+  font-weight: bold;
+}
+
+a:hover{
+  color:#AB0094;
+}
+
+.fa-solid{
+  color: #99A9B6
+
+}
+.container {
+  width: 800px;
+  margin: 24 auto;
+}
+.card-white{
+  background-color :antiquewhite;
+  border-radius : 8px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  padding: 40px;
+  margin: 20px;
+}
+.img-circle{
+  border-radius: 50%;
+}
+
+.btn-blue{
+  background: rgb(144, 144, 236);
+  color:white;
+  border-radius:4px;
+  padding: 8px 24px;
+  border: 2px solid transparent;
+}
+.btn-blue:hover{
+  background: rgb(230, 230, 237);
+  color:#575F7D;
+  border-radius:4px;
+  padding: 8px 24px;
+  border: 4px outset #cf11f5;
+}
+.list-inline{
+  list-style:none;
+  padding-left: 0px;
+
+}
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 16px;
+}
+.text-center{
+  text-align:center;
+}
+.fa-solid{
+  color:#AB0094
+}
+#intro p {
+  margin-bottom:32px
+
+}
+#reseau-icone {
+  font-size: 50px
+}
+
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
